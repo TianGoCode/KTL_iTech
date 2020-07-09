@@ -126,3 +126,6 @@ h5>a:hover{
     color: darkmagenta;
     text-decoration: none;
 }
+#post{
+    border-top: red solid;
+}
