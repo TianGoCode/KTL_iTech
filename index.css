@@ -130,3 +130,13 @@ h5>a:hover{
     margin-left: 5px;
     
 }
+.text-justify a {
+    color: black;
+}
+.hoverText:hover {
+    color: darkmagenta;
+    text-decoration: none;
+}
+#post{
+    border-top: red solid;
+}
