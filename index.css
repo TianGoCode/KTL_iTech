@@ -140,3 +140,69 @@ h5>a:hover{
 #post{
     border-top: red solid;
 }
+
+/* ---------------update------------- */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+  /*--------------*/
+.footer_li2{
+    font-size: 9pt;
+    list-style: none;
+}
+.footer_li2>a{
+    color: rgb(185, 185, 185);
+}
+.footer_li2>a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+   left: 0;
+   top: 100%;
+   width: 100%;
+   padding: 32px 12px ;
+}
+h5{
+    text-transform: uppercase;
+}
+h5>a{
+    color: white;
+    text-decoration: none;
+}
+h5>a:hover{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.pp{
+    color: rgb(185, 185, 185);
+    font-size: 9pt;
+    display: block;
+}
+
+/* .rowlist{
+    display: flex;
+    padding-left: 0;
+}
+.rowlist>li{
+    margin-left: 5px;
+    
+} */
+
