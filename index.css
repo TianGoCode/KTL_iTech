@@ -1,86 +1,38 @@
-.navbar {
-    overflow: hidden;
-    background-color: rgb(41, 43, 44);
-    position: fixed;
-    top: 0;
+.bottom-header {
+    height: 45px;
+    position: relative;
+}
+.menu-expand-wrapper {
+    position: absolute;
     width: 100%;
-}
-.main {
-    margin-top: 30px;
-    height: 900px; 
-}
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-ul .li1 {
-    float: left;
-    width: 200px;
-    height: 40px;
-    background-color: rgb(41, 43, 44) ;
-    opacity: 0.9;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-}
-
-ul .li1 a {
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-ul .li1 a:hover {
-    background-color: rgb(128, 128, 111);
-}
-
-ul .li1 ul .li1 {
+    top: 45px;
+    left: 0;
+    background: #f1f1f1;
+    height: 190px;
+    z-index: 9999;
     display: none;
 }
-
-ul .li1:hover ul .li1 {
-    display: block;   
+.menu-clear {
+    width: 100%;
+    background: #f1f1f1;
+    position: relative;
+    box-shadow: 0 11px 84px 0 rgba(0,0,0,.35);
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
-
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 40px;
-    border-radius: .25rem;
+.clearfix {
+    zoom: 1;
 }
-
-.text-nav-search {
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    border-radius: .25rem;
-    border-color: white;
-    padding: 0rem 0.3rem;
-    line-height: 40px;
+.w1040 {
+    width: 1040px;
+    margin: 0 auto;
 }
-
-.btn-outline {
-    background: white;
-    z-index: 0;
-    border-style: solid;
-    border-radius: .25rem;
-    border-image-source: black;
-    border-image-slice: 1;
-    border-bottom-width: 1px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
+.submenu-expand-list .submenu-expand-item.cate {
+    border-bottom: 1px solid #acacac;
+    margin-bottom: 24px;
+    position: relative;
 }
-
+/* ----End Header---- */
 div{
     font-family: Arial, Helvetica, sans-serif;
     
