@@ -1,37 +1,4 @@
-.bottom-header {
-    height: 45px;
-    position: relative;
-}
-.menu-expand-wrapper {
-    position: absolute;
-    width: 100%;
-    top: 45px;
-    left: 0;
-    background: #f1f1f1;
-    height: 190px;
-    z-index: 9999;
-    display: none;
-}
-.menu-clear {
-    width: 100%;
-    background: #f1f1f1;
-    position: relative;
-    box-shadow: 0 11px 84px 0 rgba(0,0,0,.35);
-    padding-top: 35px;
-    padding-bottom: 25px;
-}
-.clearfix {
-    zoom: 1;
-}
-.w1040 {
-    width: 1040px;
-    margin: 0 auto;
-}
-.submenu-expand-list .submenu-expand-item.cate {
-    border-bottom: 1px solid #acacac;
-    margin-bottom: 24px;
-    position: relative;
-}
+
 /* ----End Header---- */
 div{
     font-family: Arial, Helvetica, sans-serif;
