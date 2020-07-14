@@ -30,17 +30,7 @@ div{
     font-size: 9pt;
     display: block;
 }
-h5{
-    text-transform: uppercase;
-}
-h5>a{
-    color: white;
-    text-decoration: none;
-}
-h5>a:hover{
-    color: white;
-    text-decoration: none;
-}
+
 .rowlist{
     display: flex;
     padding-left: 0;
@@ -94,14 +84,14 @@ h5>a:hover{
    width: 100%;
    padding: 32px 12px ;
 }
-h5{
+.header-h5{
     text-transform: uppercase;
 }
-h5>a{
+.header-h5>a{
     color: white;
     text-decoration: none;
 }
-h5>a:hover{
+.header-h5>a:hover{
     color: white;
     text-decoration: none;
 }
