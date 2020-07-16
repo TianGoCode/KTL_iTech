@@ -2,518 +2,504 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>iTech - Tech News</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>iTech - Tech News</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
 
-    <div id="page-container">
-        <div id="content-wrap">
+      <!-- nav -->
 
-            <!-- nav -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid"
+            src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
+            width="75.42px" height="30.32px" alt="logo here!">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-                <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid"
-                        src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
-                        width="75.42px" height="30.32px" alt="logo here!">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" style="color: white;" href="index.html">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" style="color: white;" href="tin_ict.html">Tin ICT <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Thiết bị
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="thietbi_c.html">Máy tính</a>
-                                <a class="dropdown-item" href="thietbi_p.html">Điện thoại</a>
-                                <a class="dropdown-item" href="thietbi_o.html">Thiết bị khác</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Game
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="game_p.html">Game Máy tính</a>
-                                <a class="dropdown-item" href="game_m.html">Game Điện thoại</a>
-                                <a class="dropdown-item" href="game_c.html">Game Console</a>
-                            </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" style="color: white;" href="khampha.html">Khám phá<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" style="color: white;" href="vid.html">Video<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Tìm kiếm</button>
-                    </form>
-                </div>
-            </nav>
-            <div style="margin-top:58px">
-
-            </div>
-
-
-            <div class="row justify-content-center" style="margin-top:60px">
-                <h1>Điện thoại</h1>
-            </div>
-            <div class="row justify-content-center">
-
-
-              <div class="col-sm-3">
-                <div class="d-block">
-                  <a
-                    href="https://genk.vn/ios-136-chinh-thuc-mo-khoa-xe-hoi-bang-iphone-kiem-soat-cap-nhat-phan-mem-20200716105011593.chn">
-                    <img class="img-fluid" style="width: 453.25px; height: 276.88px;"
-                      src="https://genk.mediacdn.vn/zoom/460_281/139269124445442048/2020/7/16/photo1594871345965-15948713465311701771422.jpg"
-                      alt="iOS 13.6 chính thức: Mở khoá xe hơi bằng iPhone, kiểm soát cập nhật phần mềm...
-                      "
-                      >
-                  </a>
-                </div>
-                <div class="text-justify">
-                  <a class="hoverText"
-                    href="https://genk.vn/ios-136-chinh-thuc-mo-khoa-xe-hoi-bang-iphone-kiem-soat-cap-nhat-phan-mem-20200716105011593.chn">
-                    <h3 class=" pt-2 ">
-                      iOS 13.6 chính thức: Mở khoá xe hơi bằng iPhone, kiểm soát cập nhật phần mềm...
-                    </h3>
-                  </a>
-                  <span>
-                      iOS 13.6 được cho là phiên bản cập nhật lớn cuối cùng trước khi Apple chính thức tung ra iOS 14 vào mùa thu này.
-                  </span>
-                </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white;" href="index.html">Home <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white;" href="tin_ict.html">Tin ICT <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Thiết bị
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="thietbi_c.html">Máy tính</a>
+                <a class="dropdown-item" href="thietbi_p.html">Điện thoại</a>
+                <a class="dropdown-item" href="thietbi_o.html">Thiết bị khác</a>
               </div>
-            
-            
-            
-              <div class="col-sm-3">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="text-justify">
-                      <a
-                        href="https://genk.vn/ban-mau-razer-phone-3-tiet-lo-ly-do-vi-sao-chiec-dien-thoai-nay-bi-huy-bo-20200714232701999.chn">
-                        <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
-                          title="Bản mẫu Razer Phone 3 tiết lộ lý do vì sao chiếc điện thoại này bị huỷ bỏ"
-                          src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/14/photo1594743892010-1594743892425839810435.jpg"
-                          alt="Bản mẫu Razer Phone 3 tiết lộ lý do vì sao chiếc điện thoại này bị huỷ bỏ">
-                      </a>
-                      <a class="hoverText"
-                        href="https://genk.vn/ban-mau-razer-phone-3-tiet-lo-ly-do-vi-sao-chiec-dien-thoai-nay-bi-huy-bo-20200714232701999.chn">
-                        <h6 class="  mb-0 mt-2">
-                          Bản mẫu Razer Phone 3 tiết lộ lý do vì sao chiếc điện thoại này bị huỷ bỏ
-                        </h6>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="text-justify">
-                      <a
-                        href="https://genk.vn/oppo-a12s-ra-mat-man-hinh-62-inch-helio-p35-camera-kep-gia-chi-299-trieu-dong-20200715034131577.chn">
-                        <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
-                          title="OPPO A12s ra mắt: Màn hình 6.2 inch, Helio P35, camera kép, giá chỉ 2.99 triệu đồng"
-                          src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/15/photo1594759214766-15947592148931780615765.jpg"
-                          alt="OPPO A12s ra mắt: Màn hình 6.2 inch, Helio P35, camera kép, giá chỉ 2.99 triệu đồng">
-                      </a>
-                      <a class="hoverText"
-                        href="https://genk.vn/oppo-a12s-ra-mat-man-hinh-62-inch-helio-p35-camera-kep-gia-chi-299-trieu-dong-20200715034131577.chn">
-                        <h6 class="  mb-0 mt-2">
-                          OPPO A12s ra mắt: Màn hình 6.2 inch, Helio P35, camera kép, giá chỉ 2.99 triệu đồng
-                        </h6>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-            
-            
-                
-            
-                <div class="row mb-5 mt-5">
-                  <div class="col-sm-6 ">
-                    <div class="text-justify">
-                      <a
-                        href="https://genk.vn/pin-cua-iphone-12-tham-chi-kem-hon-ca-iphone-11-2020071402313289.chn">
-                        <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
-                          title="Pin của iPhone 12 thậm chí kém hơn cả iPhone 11?"
-                          src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/14/photo1594668188777-15946681890211523270000.jpg"
-                          alt="Pin của iPhone 12 thậm chí kém hơn cả iPhone 11?">
-                      </a>
-                      <a class="hoverText"
-                        href="https://genk.vn/pin-cua-iphone-12-tham-chi-kem-hon-ca-iphone-11-2020071402313289.chn">
-                        <h6 class="mb-0 mt-2">
-                          Pin của iPhone 12 thậm chí kém hơn cả iPhone 11?
-                        </h6>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="text-justify">
-                      <a
-                        href="https://genk.vn/sau-vivo-va-oppo-toi-luot-realme-nha-hang-cong-nghe-sac-nhanh-121w-20200713205011952.chn">
-                        <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
-                          src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/13/photo1594648152577-15946481526931253324331.jpg"
-                          title="Sau Vivo và OPPO, tới lượt Realme nhá hàng công nghệ sạc nhanh 121W"
-                          alt="Sau Vivo và OPPO, tới lượt Realme nhá hàng công nghệ sạc nhanh 121W">
-                      </a>
-                      <a class="hoverText"
-                        href="https://genk.vn/sau-vivo-va-oppo-toi-luot-realme-nha-hang-cong-nghe-sac-nhanh-121w-20200713205011952.chn">
-                        <h6  class="mb-0 mt-2">
-                          Sau Vivo và OPPO, tới lượt Realme nhá hàng công nghệ sạc nhanh 121W
-                        </h6>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                
-            
-            
-            
-            
-                
-                
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Game
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="game_p.html">Game Máy tính</a>
+                <a class="dropdown-item" href="game_m.html">Game Điện thoại</a>
+                <a class="dropdown-item" href="game_c.html">Game Console</a>
               </div>
-            </div>
-  
-  
-  
-            <div class="row justify-content-center" style="margin-top: 50px;">
-              <div class="col-sm-6 border-top">
-                <div class="row pt-3 pb-3">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title1"
-                      title="Xiaomi đang ấp ủ smartphone với màn hình bao quanh thân máy, mặt lưng trong suốt, camera 108MP?"
-                      href="https://genk.vn/xiaomi-dang-ap-u-smartphone-voi-man-hinh-bao-quanh-than-may-mat-lung-trong-suot-camera-108mp-2020071316311639.chn">
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/13/photo1594632401888-15946324022031445669650.jpeg"
-                        title="Xiaomi đang ấp ủ smartphone với màn hình bao quanh thân máy, mặt lưng trong suốt, camera 108MP?"
-                        alt="Xiaomi đang ấp ủ smartphone với màn hình bao quanh thân máy, mặt lưng trong suốt, camera 108MP?"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/xiaomi-dang-ap-u-smartphone-voi-man-hinh-bao-quanh-than-may-mat-lung-trong-suot-camera-108mp-2020071316311639.chn"
-                        title="Xiaomi đang ấp ủ smartphone với màn hình bao quanh thân máy, mặt lưng trong suốt, camera 108MP?">Xiaomi đang ấp ủ smartphone với màn hình bao quanh thân máy, mặt lưng trong suốt, camera 108MP?</a>
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      Ngay cả khi được áp dụng vào thực tế và trở thành một sản phẩm hoàn chỉnh, thiết bị này cũng có thể sẽ...
-                    </span>
-                  </div>
-                </div>
-                <div class="row pt-3 pb-3 border-top">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title2"
-                      title="Đây có phải lý do thiên tài Warren Buffet đặt cược tới gần nửa tài sản vào cổ phiếu Apple?"
-                      href="https://genk.vn/day-co-phai-ly-do-thien-tai-warren-buffet-dat-cuoc-toi-gan-nua-tai-san-vao-co-phieu-apple-2020071118341378.chn">
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/11/photo1594467198147-15944671984992086371950.jpg"
-                        title="Đây có phải lý do thiên tài Warren Buffet đặt cược tới gần nửa tài sản vào cổ phiếu Apple?"
-                        alt="Đây có phải lý do thiên tài Warren Buffet đặt cược tới gần nửa tài sản vào cổ phiếu Apple?"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/day-co-phai-ly-do-thien-tai-warren-buffet-dat-cuoc-toi-gan-nua-tai-san-vao-co-phieu-apple-2020071118341378.chn"
-                      >Đây có phải lý do thiên tài Warren Buffet đặt cược tới gần nửa tài sản vào cổ phiếu Apple?</a> 
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      Người ta gọi Warren Buffet là "nhà tiên tri xứ Omaha". Hiện tại, 43% tổng trị giá danh mục đầu tư của...
-                    </span>
-                  </div>
-                </div>
-                <div class="row pt-3 pb-3 border-top">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title3"
-                      title="Ngắm ý tưởng iPhone 12 và iPhone 12 Max mô phỏng chính xác nhất theo rò rỉ và tin đồn"
-                      href="https://genk.vn/ngam-y-tuong-iphone-12-va-iphone-12-max-mo-phong-chinh-xac-nhat-theo-ro-ri-va-tin-don-20200711103827686.chn">
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/11/photo1594438604988-15944386051741324974240.jpg"
-                        title="Ngắm ý tưởng iPhone 12 và iPhone 12 Max mô phỏng chính xác nhất theo rò rỉ và tin đồn"
-                        alt="Ngắm ý tưởng iPhone 12 và iPhone 12 Max mô phỏng chính xác nhất theo rò rỉ và tin đồn"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/ngam-y-tuong-iphone-12-va-iphone-12-max-mo-phong-chinh-xac-nhat-theo-ro-ri-va-tin-don-20200711103827686.chn"
-                      >Ngắm ý tưởng iPhone 12 và iPhone 12 Max mô phỏng chính xác nhất theo rò rỉ và tin đồn</a>
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      Đứng trước cái đẹp, mỗi nhà thiết kế lại có một góc nhìn riêng và với dòng iPhone 12 sắp ra mắt cũng...
-                  </div>
-                </div>
-                <div class="row pt-3 pb-3 border-top">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title4"
-                      title="Thêm một lý do thể khiến bạn không muốn chọn điện thoại Android nữa"
-                      href="https://genk.vn/them-mot-ly-do-the-khien-ban-khong-bao-gio-muon-so-huu-dien-thoai-android-nua-2020071109284439.chn">
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/11/photo1594434443264-1594434443635916043171.jpg"
-                        title="Thêm một lý do thể khiến bạn không muốn chọn điện thoại Android nữa"
-                        alt="Thêm một lý do thể khiến bạn không muốn chọn điện thoại Android nữa"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/them-mot-ly-do-the-khien-ban-khong-bao-gio-muon-so-huu-dien-thoai-android-nua-2020071109284439.chn"
-                        >Thêm một lý do thể khiến bạn không muốn chọn điện thoại Android nữa</a>
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      Một báo cáo bảo mật mới phát hiện ra rằng một số điện thoại Android dường như đang ẩn chứa các tệp và...
-                    </span>
-                  </div>
-                </div>
-                <div class="row pt-3 pb-3 border-top">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title5"
-                      title="Trên tay Vsmart Star 4: Chiếc điện thoại có thể gây bối rối từ VinSmart"
-                      href="https://genk.vn/tren-tay-vsmart-star-4-chiec-dien-thoai-kho-hieu-tu-vinsmart-20200709162104395.chn">
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/10/photo1594380039723-15943800398851083383616.jpg"
-                        title="Trên tay Vsmart Star 4: Chiếc điện thoại có thể gây bối rối từ VinSmart"
-                        alt="Trên tay Vsmart Star 4: Chiếc điện thoại có thể gây bối rối từ VinSmart"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/tren-tay-vsmart-star-4-chiec-dien-thoai-kho-hieu-tu-vinsmart-20200709162104395.chn"
-                        title="">Trên tay Vsmart Star 4: Chiếc điện thoại có thể gây bối rối từ VinSmart</a>
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      Sinh sau đẻ muộn, tuy nhiên Vsmart Star 4 được kỳ vọng sẽ thay thế Vsmart Joy 3 - sắp hết vòng đời...
-                    </span>
-                  </div>
-                </div>
-                <div class="row pt-3 pb-3 border-top">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title6"
-                      title="Giải pháp camera dưới màn hình đã sẵn sàng thương mại hóa và sẽ có mặt trên smartphone vào cuối năm nay"
-                      href="https://genk.vn/giai-phap-camera-duoi-man-hinh-da-san-sang-thuong-mai-hoa-va-se-co-mat-tren-smartphone-vao-cuoi-nam-nay-2020071003572238.chn"></a>
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/10/photo1594328174322-159432817467738296322.jpg"
-                        title="Giải pháp camera dưới màn hình đã sẵn sàng thương mại hóa và sẽ có mặt trên smartphone vào cuối năm nay"
-                        alt="Giải pháp camera dưới màn hình đã sẵn sàng thương mại hóa và sẽ có mặt trên smartphone vào cuối năm nay"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/giai-phap-camera-duoi-man-hinh-da-san-sang-thuong-mai-hoa-va-se-co-mat-tren-smartphone-vao-cuoi-nam-nay-2020071003572238.chn"
-                        >Giải pháp camera dưới màn hình đã sẵn sàng thương mại hóa và sẽ có mặt trên smartphone vào cuối năm nay</a>
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      Nhiều khả năng tới cuối năm nay, giới công nghệ có thể chứng kiến nhiều model smartphone trang bị...
-                    </span>
-                  </div>
-                </div>
-                <div class="row pt-3 pb-3 border-top">
-                  <div class=" col-sm-4  float-left">
-                    <a id="title7"
-                      title="iQOO Z1x 5G ra mắt: Màn hình 120Hz, Snapdragon 765G, pin 5000mAh, giá chỉ từ 5.3 triệu đồng"
-                      href="https://genk.vn/iqoo-z1x-5g-ra-mat-man-hinh-120hz-snapdragon-765g-pin-5000mah-gia-chi-tu-53-trieu-dong-20200710073749589.chn">
-                      <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
-                      <img
-                        class="img-fluid"
-                        src="https://genk.mediacdn.vn/zoom/250_155/139269124445442048/2020/7/10/photo1594341411342-1594341411472994295978.jpg"
-                        title="iQOO Z1x 5G ra mắt: Màn hình 120Hz, Snapdragon 765G, pin 5000mAh, giá chỉ từ 5.3 triệu đồng"
-                        alt="iQOO Z1x 5G ra mắt: Màn hình 120Hz, Snapdragon 765G, pin 5000mAh, giá chỉ từ 5.3 triệu đồng"
-                        width="250" height="155"></a>
-                  </div>
-                  <div class="col-sm-8 float-right">
-                    <h4 class="text-justify">
-                      <a class="hoverText"
-                        href="https://genk.vn/iqoo-z1x-5g-ra-mat-man-hinh-120hz-snapdragon-765g-pin-5000mah-gia-chi-tu-53-trieu-dong-20200710073749589.chn"
-                      >iQOO Z1x 5G ra mắt: Màn hình 120Hz, Snapdragon 765G, pin 5000mAh, giá chỉ từ 5.3 triệu đồng</a>         
-                    </h4>
-                    <div>
-                      <a href="">
-                        <!-- cho nay cho link cua the loai no vao nhe -->
-                        <button type="button" class="btn btn-dark">Điện thoại</button>
-                      </a>
-                    </div>
-                    <span>
-                      iQOO Z1x 5G là một trong những chiếc smartphone 5G rẻ nhất ở thời điểm hiện tại, mặc dù được trang bị...
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white;" href="khampha.html">Khám phá<span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white;" href="vid.html">Video<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Tìm kiếm</button>
+          </form>
+        </div>
+      </nav>
 
-            <nav aria-label="Page navigation example" style="margin-bottom: 100px;">
-              <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <!-- <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li> -->
-                <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
-              </ul>
-            </nav>
-        
+
+      <div style="margin-top:58px">
+
+      </div>
+
+
+      <div class="row justify-content-center" style="margin-top:60px">
+        <h1>Chuyên mục: Máy tính</h1>
+      </div>
+
+
+      <div class="row justify-content-center">
+        <div class="col-sm-3">
+          <div class="d-block">
+            <a
+              href="https://congngheviet.com/lenovo-thuc-day-kha-nang-sang-tao-cua-nguoi-dung-voi-laptop-ideapad-flex-5i-moi/">
+              <img class="img-fluid" style="width: 453.25px; height: 276.88px;"
+                src="https://congngheviet.com/wp-content/uploads/2020/07/IDEAPAD_FLEX_5i_14INCH_PLATINUM-1.jpg"
+                alt="Lenovo thúc đẩy khả năng sáng tạo của người dùng với laptop IdeaPad Flex 5i mới">
+            </a>
+          </div>
+          <div class="text-justify">
+            <a class="hoverText"
+              href="https://congngheviet.com/lenovo-thuc-day-kha-nang-sang-tao-cua-nguoi-dung-voi-laptop-ideapad-flex-5i-moi/">
+              <h3 class=" pt-2 ">
+                Lenovo thúc đẩy khả năng sáng tạo của người dùng với laptop IdeaPad Flex 5i mới
+              </h3>
+            </a>
+            <span>
+              Lenovo chính thức giới thiệu mẫu laptop biến hình Lenovo IdeaPad Flex 5i dành cho giải trí, học tập và làm
+              việc từ xa hiệu quả trên một thiết bị duy nhất. Với thiết kế linh hoạt và tối ưu mạnh mẽ cho nhu cầu sử
+              dụng hàng ngày
+            </span>
+          </div>
         </div>
 
 
 
-
-
-
-
-
-        <footer id="footer">
-            <div class="footer bg-dark text-white justify-align-between">
-                <div class="row justify-content-center">
-                    <div class="col-10">
-                        <div class="row">
-                            <div class=col-1>
-                                <a href="index.html">
-                                    <img class="img-fluid" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
-                                        width="75.42px" height="30.32px" alt="logo here!" class="float-left"></a>
-                            </div>
-                            <div class=col-8>
-                                <div class="row">
-                                    <div class=col-3>
-                                        <h5 class="header-h5"><a href="tin_ict.html">Tin ICT</a></h5>
-                                    </div>
-                                    <div class=col-3>
-                                        <h5 class="header-h5"><a href="#">Thiết bị</a></h5>
-
-                                        <li class="footer_li2"><a class="a2" href="thietbi_c.html">Máy tính</a></li>
-                                        <li class="footer_li2"><a class="a2" href="thietbi_p.html">Điện thoại</a></li>
-                                        <li class="footer_li2"><a class="a2" href="thietbi_o.html">Thiết bị khác</a>
-                                        </li>
-
-
-                                    </div>
-                                    <div class=col-3>
-                                        <h5 class="header-h5"><a href="#">Game</a></h5>
-                                        <li class="footer_li2"><a href="game_p.html">Game Máy tính</a></li>
-                                        <li class="footer_li2"><a href="game_m.html">Game Điện thoại</a></li>
-                                        <li class="footer_li2"><a href="game_c.html">Game Console</a></li>
-                                    </div>
-                                    <div class=col-3>
-                                        <h5 class="header-h5"><a href="khampha.html">Khám phá</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <ul class="nav">
-                                    <li class="nav-item footer_li2">
-                                        <a class="nav-link" href="#">Blog</a>
-                                    </li>
-                                    <li class="nav-item footer_li2">
-                                        <a class="nav-link" href="#">Facebook</a>
-                                    </li>
-                                    <li class="nav-item footer_li2">
-                                        <a class="nav-link" href="#">Twitter</a>
-                                    </li>
-                                    <li class="nav-item footer_li2">
-                                        <a class="nav-link" href="#">Instagram</a>
-                                    </li>
-                                </ul>
-
-                                <p class="pp">Site design / logo © 2020 KTL_ITech Group; user contributions licensed
-                                    under cc by-sa.
-                                    rev
-                                    2020.6.26.37146</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="text-justify">
+                <a href="https://congngheviet.com/fujifilm-dang-phat-trien-o-dia-bang-co-bo-nho-len-toi-400tb/">
+                  <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
+                    title="Fujifilm đang phát triển ổ đĩa băng có bộ nhớ lên tới 400TB"
+                    src="https://congngheviet.com/wp-content/uploads/2020/07/1200px-LTO2-cart-purple-218x150.jpg"
+                    alt="Fujifilm đang phát triển ổ đĩa băng có bộ nhớ lên tới 400TB">
+                </a>
+                <a class="hoverText"
+                  href="https://congngheviet.com/fujifilm-dang-phat-trien-o-dia-bang-co-bo-nho-len-toi-400tb/">
+                  <h6 class="  mb-0 mt-2">
+                    Fujifilm đang phát triển ổ đĩa băng có bộ nhớ lên tới 400TB
+                  </h6>
+                </a>
+              </div>
             </div>
+            <div class="col-sm-6">
+              <div class="text-justify">
+                <a
+                  href="https://congngheviet.com/gigabyte-trinh-lang-dong-bo-mach-chu-moi-z490-b460-va-he-sinh-thai-moi-tai-viet-nam/">
+                  <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
+                    title="Gigabyte trình làng dòng bo mạch chủ mới Z490/B460 và hệ sinh thái mới tại Việt Nam"
+                    src="https://congngheviet.com/wp-content/uploads/2020/06/Gigabyte-Z490-B460-2-congngheviet-9-218x150.jpg"
+                    alt="Gigabyte trình làng dòng bo mạch chủ mới Z490/B460 và hệ sinh thái mới tại Việt Nam">
+                </a>
+                <a class="hoverText"
+                  href="https://congngheviet.com/gigabyte-trinh-lang-dong-bo-mach-chu-moi-z490-b460-va-he-sinh-thai-moi-tai-viet-nam/">
+                  <h6 class="  mb-0 mt-2">
+                    Gigabyte trình làng dòng bo mạch chủ mới Z490/B460 và hệ sinh thái mới tại Việt Nam
+                  </h6>
+                </a>
+              </div>
+            </div>
+          </div>
 
 
-        </footer>
+
+
+          <div class="row mb-5 mt-5">
+            <div class="col-sm-6 ">
+              <div class="text-justify">
+                <a
+                  href="https://congngheviet.com/rog-chinh-thuc-gioi-thieu-zephyrus-g14-laptop-gaming-14-inch-manh-nhat-the-gioi/">
+                  <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
+                    title="ROG chính thức giới thiệu Zephyrus G14, laptop gaming 14-inch mạnh nhất thế giới"
+                    src="https://congngheviet.com/wp-content/uploads/2020/06/ASUS-Zephyrus-G14-0179-congngheviet-218x150.jpg"
+                    alt="ROG chính thức giới thiệu Zephyrus G14, laptop gaming 14-inch mạnh nhất thế giới">
+                </a>
+                <a class="hoverText"
+                  href="https://congngheviet.com/rog-chinh-thuc-gioi-thieu-zephyrus-g14-laptop-gaming-14-inch-manh-nhat-the-gioi/">
+                  <h6 class="mb-0 mt-2">
+                    ROG chính thức giới thiệu Zephyrus G14, laptop gaming 14-inch mạnh nhất thế giới
+                  </h6>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="text-justify">
+                <a href="https://congngheviet.com/lenovo-ra-mat-thinkpad-l-series-moi/">
+                  <img class="d-inline-block img-fluid" style="height: 140px; width: 218px;"
+                    src="https://congngheviet.com/wp-content/uploads/2020/06/ThinkPad-L13-2-218x150.jpg"
+                    title="Lenovo ra mắt ThinkPad L Series mới – cân bằng tối ưu giữa hiệu năng và chi phí cho doanh nghiệp vừa và nhỏ"
+                    alt="Lenovo ra mắt ThinkPad L Series mới – cân bằng tối ưu giữa hiệu năng và chi phí cho doanh nghiệp vừa và nhỏ">
+                </a>
+                <a class="hoverText" href="https://congngheviet.com/lenovo-ra-mat-thinkpad-l-series-moi/">
+                  <h6 class="mb-0 mt-2">
+                    Lenovo ra mắt ThinkPad L Series mới – cân bằng tối ưu giữa hiệu năng và chi phí cho doanh nghiệp vừa
+                    và nhỏ
+                  </h6>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+      <div class="row justify-content-center" style="margin-top: 50px;">
+        <div class="col-sm-6 border-top">
+          <div class="row pt-3 pb-3">
+            <div class=" col-sm-4  float-left">
+              <a id="title1"
+                title="Lenovo ThinkStation P620: Máy trạm đầu tiên thế giới dùng chip AMD Ryzen Threadripper PRO"
+                href="https://congngheviet.com/lenovo-thinkstation-p620-may-tram-dau-tien-the-gioi-dung-chip-amd-ryzen-threadripper-pro/">
+                <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+                <img class="img-fluid"
+                  src="https://congngheviet.com/wp-content/uploads/2020/07/01_ThinkStation_P620_Hero_Front_Facing_Right-218x150.jpg"
+                  title="Lenovo ThinkStation P620: Máy trạm đầu tiên thế giới dùng chip AMD Ryzen Threadripper PRO"
+                  alt="Lenovo ThinkStation P620: Máy trạm đầu tiên thế giới dùng chip AMD Ryzen Threadripper PRO"
+                  width="250" height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText"
+                  href="https://congngheviet.com/lenovo-thinkstation-p620-may-tram-dau-tien-the-gioi-dung-chip-amd-ryzen-threadripper-pro/"
+                  title="Lenovo ThinkStation P620: Máy trạm đầu tiên thế giới dùng chip AMD Ryzen Threadripper PRO">Lenovo
+                  ThinkStation P620: Máy trạm đầu tiên thế giới dùng chip AMD Ryzen Threadripper PRO</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                Lenovo ra mắt ThinkStation P620 - máy trạm đầu tiên trong thiết kế dạng tháp (tower).
+              </span>
+            </div>
+          </div>
+          <div class="row pt-3 pb-3 border-top">
+            <div class=" col-sm-4  float-left">
+              <a id="title2" title="Razer ra mắt bàn phím cơ Huntsman Mini kích thước 60 phần trăm đầu tiên của mình"
+                href="https://congngheviet.com/razer-ra-mat-ban-phim-co-huntsman-mini/">
+                <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+                <img class="img-fluid"
+                  src="https://congngheviet.com/wp-content/uploads/2020/07/razer-huntsman-mini2-218x150.jpg"
+                  title="Razer ra mắt bàn phím cơ Huntsman Mini kích thước 60 phần trăm đầu tiên của mình"
+                  alt="Razer ra mắt bàn phím cơ Huntsman Mini kích thước 60 phần trăm đầu tiên của mình" width="250"
+                  height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText" href="https://congngheviet.com/razer-ra-mat-ban-phim-co-huntsman-mini/">Razer ra
+                  mắt bàn phím cơ Huntsman Mini kích thước 60 phần trăm đầu tiên của mình</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                Thuộc dòng sản phẩm bàn phím kích thước 60 phần trăm, Huntsman Mini sẽ là chiếc bàn phím cơ dành cho ai
+                yêu thích...
+              </span>
+            </div>
+          </div>
+          <div class="row pt-3 pb-3 border-top">
+            <div class=" col-sm-4  float-left">
+              <a id="title3"
+                title="Lenovo giới thiệu laptop Lenovo Legion mới: Nâng tầm trải nghiệm gaming với loạt tính năng sáng tạo"
+                href="https://congngheviet.com/lenovo-gioi-thieu-laptop-lenovo-legion-moi/">
+                <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+                <img class="img-fluid"
+                  src="https://congngheviet.com/wp-content/uploads/2020/07/New-Lenovo-Legion-5i-laptop-218x150.jpg"
+                  title="Lenovo giới thiệu laptop Lenovo Legion mới: Nâng tầm trải nghiệm gaming với loạt tính năng sáng tạo"
+                  alt="Lenovo giới thiệu laptop Lenovo Legion mới: Nâng tầm trải nghiệm gaming với loạt tính năng sáng tạo"
+                  width="250" height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText" href="https://congngheviet.com/lenovo-gioi-thieu-laptop-lenovo-legion-moi/">Lenovo
+                  giới thiệu laptop Lenovo Legion mới: Nâng tầm trải nghiệm gaming với loạt tính năng sáng tạo</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                Lenovo chính thức ra mắt dòng laptop chơi game chuyên nghiệp Lenovo Legion mới, bao gồm Legion 5i và
+                Legion 7i, mang tới cho...
+              </span>
+            </div>
+          </div>
+          <div class="row pt-3 pb-3 border-top">
+            <div class=" col-sm-4  float-left">
+              <a id="title4"
+                title="Trên tay bo mạch chủ B550 Vision D, bo mạch chủ thiết kế đẹp mắt dành cho các nhà sáng tạo nội dung"
+                href="https://congngheviet.com/tren-tay-bo-mach-chu-gigabyte-b550-vision-d/">
+                <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+                <img class="img-fluid"
+                  src="https://congngheviet.com/wp-content/uploads/2020/07/Gigabyte-B550-Vision-D-09225-congngheviet-218x150.jpg"
+                  title="Trên tay bo mạch chủ B550 Vision D, bo mạch chủ thiết kế đẹp mắt dành cho các nhà sáng tạo nội dung"
+                  alt="Trên tay bo mạch chủ B550 Vision D, bo mạch chủ thiết kế đẹp mắt dành cho các nhà sáng tạo nội dung"
+                  width="250" height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText" href="https://congngheviet.com/tren-tay-bo-mach-chu-gigabyte-b550-vision-d/">Trên
+                  tay bo mạch chủ B550 Vision D, bo mạch chủ thiết kế đẹp mắt dành cho các nhà sáng tạo nội dung</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                Với nhu cầu của mảng sáng tạo nội dung ngày càng tăng cao, GIGABYTE ra mắt một chiếc bo mạch chủ B550
+                VISION D...
+              </span>
+            </div>
+          </div>
+          <div class="row pt-3 pb-3 border-top">
+            <div class=" col-sm-4  float-left">
+              <a id="title5" title="ID-Cooling ZoomFlow, tản nhiệt AIO phân khúc phổ thông, giá từ 1.79 triệu"
+                href="https://congngheviet.com/id-cooling-zoomflow-tan-nhiet-aio-phan-khuc-pho-thong-gia-tu-1-79-trieu/">
+                <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+                <img class="img-fluid"
+                  src="https://congngheviet.com/wp-content/uploads/2020/07/ID-Cooling-ZoomFlow-0215-congngheviet-218x150.jpg"
+                  title="ID-Cooling ZoomFlow, tản nhiệt AIO phân khúc phổ thông, giá từ 1.79 triệu"
+                  alt="ID-Cooling ZoomFlow, tản nhiệt AIO phân khúc phổ thông, giá từ 1.79 triệu" width="250"
+                  height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText"
+                  href="https://congngheviet.com/id-cooling-zoomflow-tan-nhiet-aio-phan-khuc-pho-thong-gia-tu-1-79-trieu/"
+                  title="">ID-Cooling ZoomFlow, tản nhiệt AIO phân khúc phổ thông, giá từ 1.79 triệu</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                ID-Cooling chính thức giới thiệu dòng sản phẩm tản nhiệt AIO (All-in-one) đến người dùng Việt Nam là
+                ID-Cooling ZoomFlow 240X và ZoomFlow 360X....
+              </span>
+            </div>
+          </div>
+          <div class="row pt-3 pb-3 border-top">
+            <div class=" col-sm-4  float-left">
+              <a id="title6" title="ASUS ra mắt bộ đôi màn hình ProArt mới giành cho nhà thiết kế nội dung"
+                href="https://congngheviet.com/asus-ra-mat-bo-doi-man-hinh-proart-moi-gianh-cho-nha-thiet-ke-noi-dung/"></a>
+              <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+              <img class="img-fluid"
+                src="https://congngheviet.com/wp-content/uploads/2020/07/Man-hinh-ASUS-Pro-Art-congngheviet-2-218x150.jpg"
+                title="ASUS ra mắt bộ đôi màn hình ProArt mới giành cho nhà thiết kế nội dung"
+                alt="ASUS ra mắt bộ đôi màn hình ProArt mới giành cho nhà thiết kế nội dung" width="250"
+                height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText"
+                  href="https://congngheviet.com/asus-ra-mat-bo-doi-man-hinh-proart-moi-gianh-cho-nha-thiet-ke-noi-dung/">ASUS
+                  ra mắt bộ đôi màn hình ProArt mới giành cho nhà thiết kế nội dung</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                ASUS ra mắt màn hình ProArt PA248QV và PA278QV, hai màn hình chuyên nghiệp mới với tấm nền IPS với thiết
+                kế tràn viền...
+              </span>
+            </div>
+          </div>
+          <div class="row pt-3 pb-3 border-top">
+            <div class=" col-sm-4  float-left">
+              <a id="title7" title="Intel cho biết Thunderbolt 4 sẽ không nhanh hơn, thay vào đó là thông số tốt hơn"
+                href="https://congngheviet.com/thunderbolt-4-se-co-toc-do-giong-thunderbolt-3-nhung-thong-so-tot-hon/">
+                <!-- trong the a nay nho them id="titlex" ; x chay tu 1 tang dan theo moi bai bao e ao ra, cai nay a lam mau r -->
+                <img class="img-fluid"
+                  src="https://congngheviet.com/wp-content/uploads/2020/04/macbook-pro-4-thunderbolt-ports-218x150.jpg"
+                  title="Intel cho biết Thunderbolt 4 sẽ không nhanh hơn, thay vào đó là thông số tốt hơn"
+                  alt="Intel cho biết Thunderbolt 4 sẽ không nhanh hơn, thay vào đó là thông số tốt hơn" width="250"
+                  height="155"></a>
+            </div>
+            <div class="col-sm-8 float-right">
+              <h4 class="text-justify">
+                <a class="hoverText"
+                  href="https://congngheviet.com/thunderbolt-4-se-co-toc-do-giong-thunderbolt-3-nhung-thong-so-tot-hon/">Intel
+                  cho biết Thunderbolt 4 sẽ không nhanh hơn, thay vào đó là thông số tốt hơn</a>
+              </h4>
+              <div>
+                <a href="">
+                  <!-- cho nay cho link cua the loai no vao nhe -->
+                  <button type="button" class="btn btn-dark">Máy tính</button>
+                </a>
+              </div>
+              <span>
+                Thunderbolt 4 theo Intel cho biết nó sẽ không nhanh hơn Thunderbolt 3 nhưng đổi lại có thông số tốt hơn
+                với khả năng...
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <nav aria-label="Page navigation example" style="margin-bottom: 100px;">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <!-- <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+          <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+
+
     </div>
 
+    <footer id="footer">
+      <div class="footer bg-dark text-white justify-align-between">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="row">
+              <div class=col-1>
+                <a href="index.html">
+                  <img class="img-fluid"
+                    src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
+                    width="75.42px" height="30.32px" alt="logo here!" class="float-left"></a>
+              </div>
+              <div class=col-8>
+                <div class="row">
+                  <div class=col-3>
+                    <h5 class="header-h5"><a href="tin_ict.html">Tin ICT</a></h5>
+                  </div>
+                  <div class=col-3>
+                    <h5 class="header-h5"><a href="#">Thiết bị</a></h5>
 
+                    <li class="footer_li2"><a class="a2" href="thietbi_c.html">Máy tính</a></li>
+                    <li class="footer_li2"><a class="a2" href="thietbi_p.html">Điện thoại</a></li>
+                    <li class="footer_li2"><a class="a2" href="thietbi_o.html">Thiết bị khác</a>
+                    </li>
+
+
+                  </div>
+                  <div class=col-3>
+                    <h5 class="header-h5"><a href="#">Game</a></h5>
+                    <li class="footer_li2"><a href="game_p.html">Game Máy tính</a></li>
+                    <li class="footer_li2"><a href="game_m.html">Game Điện thoại</a></li>
+                    <li class="footer_li2"><a href="game_c.html">Game Console</a></li>
+                  </div>
+                  <div class=col-3>
+                    <h5 class="header-h5"><a href="khampha.html">Khám phá</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <ul class="nav">
+                  <li class="nav-item footer_li2">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item footer_li2">
+                    <a class="nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="nav-item footer_li2">
+                    <a class="nav-link" href="#">Twitter</a>
+                  </li>
+                  <li class="nav-item footer_li2">
+                    <a class="nav-link" href="#">Instagram</a>
+                  </li>
+                </ul>
+
+                <p class="pp">Site design / logo © 2020 KTL_ITech Group; user contributions licensed
+                  under cc by-sa.
+                  rev
+                  2020.6.26.37146</p>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+  <script src="data.js"></script>
 </body>
 
 </html>
