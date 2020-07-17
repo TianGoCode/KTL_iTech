@@ -22,7 +22,7 @@ var html = ""
 for (var i = 0; i < toShow.length; i++) {
     html += `
     <div class="row justify-content-center">
-        <div class="col-sm-6"> <a href=${toShow[i].link}><h4>${toShow[i].title}</h4></a><br></br>
+        <div class="col-sm-6"> <a class="hoverText" href=${toShow[i].link}><h4>${toShow[i].title}</h4></a><br></br>
     </div>
     </div>`
 }

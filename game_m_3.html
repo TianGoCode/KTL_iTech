@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>iTech - Tech News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="page-container">
+        <div id="content-wrap">
+
+            <!-- nav -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid"
+                        src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
+                        width="75.42px" height="30.32px" alt="logo here!">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="tin_ict.html">Tin ICT <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Thiết bị
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="thietbi_c.html">Máy tính</a>
+                                <a class="dropdown-item" href="thietbi_p.html">Điện thoại</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Game
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="game_p.html">Game Máy tính</a>
+                                <a class="dropdown-item" href="game_m.html">Game Điện thoại</a>
+                                <a class="dropdown-item" href="game_c.html">Game Console</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="khampha.html">Khám phá<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="vid.html">Video<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" action="search.html">
+                        <input class="form-control mr-sm-2" type="text" id="finding-value" placeholder="Tìm kiếm"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="saveLS()">Tìm
+                            kiếm</button>
+                    </form>
+                </div>
+            </nav>
+            <div style="margin-top:58px">
+
+            </div>
+
+
+            <div class="row justify-content-center" style="margin-top:60px">
+                <div class="col-sm-6">
+                    <h1 data-field="title">
+                        Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của
+                        Riot</h1>
+                    <p class="mgt15">
+                        <span class="author">Lee Chueng Hee</span>&nbsp;<a class="fon9" target="_blank" rel="nofollow"
+                            href="http://ttvn.toquoc.vn"> - Theo Trí Thức Trẻ </a>|
+                        17/07/2020 7:00 AM
+                    </p>
+
+                    <div style="border-top: 10px solid grey; padding-top:10px">
+
+                        <div class="rightdetail">
+                            <h2 data-field="sapo">PUBG Mobile đang được cho là vay mượn rất rất nhiều ý tưởng từ các tựa
+                                game đình đám khác, trước đây là CS:GO và mới đây là một tựa game đình đám của Riot
+                                Games.</h2>
+
+
+                            <script>
+                                admicroAD.unit.push(function () { admicroAD.show('admzonek9yy7w7l') });
+                            </script>
+
+
+
+                            <div class="rightdetail_content" data-field="body">
+                                <p style="text-align: justify;"><span style="">Còn nhớ cách đây không lâu, Tencent đã
+                                        thêm vào tựa game sinh tồn của mình một skin mới là M16A4 có tên Psycho Savage.
+                                        Đây cũng chính là lý do khiến cho game thủ CS:GO trên
+                                        toàn cầu tức giận vì cho rằng skin này trông giống như
+                                        bản sao của Neon Revolution, skin AK47 trong CS:GO. Chỉ có một sự khác biệt nhỏ
+                                        là phiên bản trong PUBG Mobile có một sọc trắng nhỏ trên đầu.</span><br></p>
+                                <div class="VCSortableInPreviewMode noCaption" type="Photo" style="">
+                                    <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/69d0e45cddbde279d10dc3a9eb05100e-4242-15858045783161129248194-1594895375771116277829.jpg"
+                                            data-fancybox-group="img-lightbox" title="" target="_blank"
+                                            class="detail-img-lightbox"><img
+                                                src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/7/16/69d0e45cddbde279d10dc3a9eb05100e-4242-15858045783161129248194-1594895375771116277829.jpg"
+                                                id="img_208169080814477312" w="740" h="884"
+                                                alt="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 1."
+                                                title="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 1."
+                                                rel="lightbox" photoid="208169080814477312" type="photo"
+                                                style="max-width:100%;"
+                                                data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/69d0e45cddbde279d10dc3a9eb05100e-4242-15858045783161129248194-1594895375771116277829.jpg"
+                                                width="" height="" class="lightbox-content"></a></div>
+                                    <div class="PhotoCMS_Caption"></div>
+                                </div>
+                                <p style="text-align: justify; margin-top: 10px">Tất nhiên, game thủ CS:GO còn cho rằng,
+                                    đây không phải
+                                    là lần đầu tiên PUBG Mobile lấy ý
+                                    tưởng từ tựa game của mình. Ví dụ Field Commander AWM của PUBG Mobile
+                                    trông như một phiên bản nhái của AWP Phobos trong CS:GO hoặc QBZ95 Phantom của PUBG
+                                    giống 80% Neo-Noir Skins của CS:GO. </p>
+                                <div class="VCSortableInPreviewMode noCaption" type="Photo" style="">
+                                    <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/02bde991b087c38522f000ca2c75a8f7-7870-15858046009911353630485-15948953757721704754606.jpg"
+                                            data-fancybox-group="img-lightbox" title="" target="_blank"
+                                            class="detail-img-lightbox"><img
+                                                src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/7/16/02bde991b087c38522f000ca2c75a8f7-7870-15858046009911353630485-15948953757721704754606.jpg"
+                                                id="img_208169081468788736" w="740" h="336"
+                                                alt="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 2."
+                                                title="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 2."
+                                                rel="lightbox" photoid="208169081468788736" type="photo"
+                                                style="max-width:100%;"
+                                                data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/02bde991b087c38522f000ca2c75a8f7-7870-15858046009911353630485-15948953757721704754606.jpg"
+                                                width="" height="" class="lightbox-content"></a></div>
+                                    <div class="PhotoCMS_Caption"></div>
+                                </div>
+                                <p style="text-align: justify; margin-top: 10px">Khi mà câu chuyện đạo nhái này chìm dần
+                                    xuống thì mới
+                                    đây, PUBG Mobile lại đưa ra một hệ thống chống
+                                    hack mới được cho là vay mượn rất nhiều ý tưởng từ Valorant, bom tấn
+                                    bắn súng mới của Riot Games. Trong Valorant, hệ thống chống gian lận có chức năng
+                                    được gọi là Wallhack-resistant. Hệ thống này khiến cho game thủ khác trở nên không
+                                    tồn tại cho đến khi họ xuất hiện trên màn hình của game thủ. Bằng cách này, Valorant
+                                    có thể chống lại những kẻ sử dụng Wallhack không thể xâm nhập vào máy chủ của mình.
+                                </p>
+                                <div class="VCSortableInPreviewMode active noCaption" type="Photo" style="">
+                                    <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/pubg-mobile-cheat-77fd-15948953757731620762402.jpg"
+                                            data-fancybox-group="img-lightbox" title="" target="_blank"
+                                            class="detail-img-lightbox"><img
+                                                src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/7/16/pubg-mobile-cheat-77fd-15948953757731620762402.jpg"
+                                                id="img_208169083787784192" w="740" h="416"
+                                                alt="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 3."
+                                                title="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 3."
+                                                rel="lightbox" photoid="208169083787784192" type="photo"
+                                                style="max-width:100%;"
+                                                data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/pubg-mobile-cheat-77fd-15948953757731620762402.jpg"
+                                                width="" height="" class="lightbox-content"></a></div>
+                                    <div class="PhotoCMS_Caption"></div>
+                                </div>
+                                <p style="text-align: justify; margin-top: 10px">Điều này cũng áp dụng tương tự trong
+                                    PUBG Mobile, nếu
+                                    như máy chủ không phát hiện thấy game thủ thì dữ liệu của họ sẽ không được gửi đến
+                                    Spectator (Tài khoản theo dõi trận đấu và tiếp nhận đữ liệu chiến đấu của máy chủ
+                                    PUBG Mobile). Như vậy, vị trí của game thủ sẽ được bảo mật hoàn toàn cho đến khi kẻ
+                                    địch nhìn thấy game thủ trên màn hình. Từ đó, các công cụ hack xuyên tườngtrở thành
+                                    "đồ bỏ".
+                                </p>
+                                <div class="VCSortableInPreviewMode active noCaption" type="Photo" style="">
+                                    <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/74274957-610379333122104-8954244030263197696-o-8b31-15948953757731912584846.jpg"
+                                            data-fancybox-group="img-lightbox" title="" target="_blank"
+                                            class="detail-img-lightbox"><img
+                                                src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/7/16/74274957-610379333122104-8954244030263197696-o-8b31-15948953757731912584846.jpg"
+                                                id="img_208169084614512640" w="740" h="740"
+                                                alt="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 4."
+                                                title="Game thủ bóc phốt PUBG Mobile đạo nhái CS:GO, bây giờ còn “ăn cắp” ý tưởng từ một bom tấn của Riot - Ảnh 4."
+                                                rel="lightbox" photoid="208169084614512640" type="photo"
+                                                style="max-width:100%;"
+                                                data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/74274957-610379333122104-8954244030263197696-o-8b31-15948953757731912584846.jpg"
+                                                width="" height="" class="lightbox-content"></a></div>
+                                    <div class="PhotoCMS_Caption"></div>
+                                </div>
+                                <p style="text-align: justify; margin-top: 10px">Vấn đề hack, cheat luôn là một vấn đề
+                                    vô cùng nghiêm
+                                    trọng đã diễn ra từ lâu trong PUBG Mobile. Game thủ đã vô cùng đau đầu bởi lẽ hacker
+                                    có thể phá hỏng trải nghiệm của người chơi. Với việc vay mượn ý tưởng từ Valorant,
+                                    PUBG Mobile tự tin có thể dẹp sạch những hacker sử dụng phần mềm hack map. Nếu như
+                                    lần "đạo nhái" CS:GO bị game thủ chê trách thì lần "ăn cắp" ý tưởng lần này của
+                                    Valorant có thể sẽ nhận được lời khen từ cộng đồng vì có thể tạm dẹp yên được nạn
+                                    hack, cheat vô cùng phức tạp trong PUBG Mobile. </p>
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="row mb-5 mt-5"></div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer bg-dark text-white justify-align-between">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="row">
+                            <div class=col-1>
+                                <a href="index.html">
+                                    <img class="img-fluid"
+                                        src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
+                                        width="75.42px" height="30.32px" alt="logo here!" class="float-left"></a>
+                            </div>
+                            <div class=col-8>
+                                <div class="row">
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="tin_ict.html">Tin ICT</a></h5>
+                                    </div>
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="#">Thiết bị</a></h5>
+
+                                        <li class="footer_li2"><a class="a2" href="thietbi_c.html">Máy tính</a></li>
+                                        <li class="footer_li2"><a class="a2" href="thietbi_p.html">Điện thoại</a></li>
+                                        </li>
+
+
+                                    </div>
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="#">Game</a></h5>
+                                        <li class="footer_li2"><a href="game_p.html">Game Máy tính</a></li>
+                                        <li class="footer_li2"><a href="game_m.html">Game Điện thoại</a></li>
+                                        <li class="footer_li2"><a href="game_c.html">Game Console</a></li>
+                                    </div>
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="khampha.html">Khám phá</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <ul class="nav">
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Facebook</a>
+                                    </li>
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Twitter</a>
+                                    </li>
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Instagram</a>
+                                    </li>
+                                </ul>
+
+                                <p class="pp">Site design / logo © 2020 KTL_ITech Group; user contributions licensed
+                                    under cc by-sa.
+                                    rev
+                                    2020.6.26.37146</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </footer>
+    </div>
+
+    <script src="search_onClick.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>iTech - Tech News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="page-container">
+        <div id="content-wrap">
+
+            <!-- nav -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid"
+                        src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
+                        width="75.42px" height="30.32px" alt="logo here!">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="tin_ict.html">Tin ICT <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Thiết bị
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="thietbi_c.html">Máy tính</a>
+                                <a class="dropdown-item" href="thietbi_p.html">Điện thoại</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Game
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="game_p.html">Game Máy tính</a>
+                                <a class="dropdown-item" href="game_m.html">Game Điện thoại</a>
+                                <a class="dropdown-item" href="game_c.html">Game Console</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="khampha.html">Khám phá<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white;" href="vid.html">Video<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" action="search.html">
+                        <input class="form-control mr-sm-2" type="text" id="finding-value" placeholder="Tìm kiếm"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="saveLS()">Tìm
+                            kiếm</button>
+                    </form>
+                </div>
+            </nav>
+            <div style="margin-top:58px">
+
+            </div>
+
+
+            <div class="row justify-content-center" style="margin-top:60px">
+                <div class="col-sm-6">
+                    <h1 data-field="title">
+                        Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai
+                        cũng biết là ai”</h1>
+                    <p class="mgt15">
+                        <span class="author">Tờ Ún</span>&nbsp;<a class="fon9" target="_blank" rel="nofollow"
+                            href="http://ttvn.toquoc.vn"> - Theo Trí Thức Trẻ </a>|
+                        17/07/2020 12:00 AM
+                    </p>
+
+                    <div style="border-top: 10px solid grey; padding-top:10px">
+
+                        <div class="rightdetail_content" data-field="body">
+                            <p style="text-align: justify;"><span style="">LMHT: Tốc Chiến dù chưa ra mắt, song tựa game
+                                    này đã tạo được hiệu ứng không hề nhỏ trong cộng đồng game thủ trên toàn thế giới
+                                    cũng như tại Việt Nam. Cũng chính vì nhờ vào hiệu ứng này mà nhiều game thủ hay
+                                    Youtuber đã tranh thủ để có thể "câu view, câu
+                                    sub" youtube của mình.</span><br></p>
+                            <div class="VCSortableInPreviewMode noCaption" type="Photo" style="">
+                                <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot1-1594873471859375452736.png"
+                                        data-fancybox-group="img-lightbox" title="" target="_blank"
+                                        class="detail-img-lightbox"><img
+                                            src="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot1-1594873471859375452736.png"
+                                            id="img_208077209700212736" w="505" h="381"
+                                            alt="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 1."
+                                            title="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 1."
+                                            rel="lightbox" photoid="208077209700212736" type="photo"
+                                            style="max-width:100%;"
+                                            data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot1-1594873471859375452736.png"
+                                            width="" height="" class="lightbox-content"></a></div>
+                                <div class="PhotoCMS_Caption"></div>
+                            </div>
+                            <p style="text-align: justify; margin-top: 10px">Mới đây, một trong những bài đăng như thế đã khiến cho cộng
+                                đồng game thủ khó chịu với cách mà Youtuber này "giật tít" cho video clip với tiêu đề
+                                "LMHT: Tốc Chiến có đi vào vết xe đổ của thế hệ trước khi đối đầu với Liên Quân Mobile".
+                                Ngay câu mở đầu của clip, Youtuber này đã nói ngay một câu xanh rờn "LMHT: Tốc
+                                Chiến đã làm cho cộng đồng game thủ cảm thấy khó chịu. </p>
+                            <div class="VCSortableInPreviewMode noCaption" type="Photo" style="">
+                                <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot2-1594873471902791699445.png"
+                                        data-fancybox-group="img-lightbox" title="" target="_blank"
+                                        class="detail-img-lightbox"><img
+                                            src="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot2-1594873471902791699445.png"
+                                            id="img_208077209488494592" w="500" h="754"
+                                            alt="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 2."
+                                            title="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 2."
+                                            rel="lightbox" photoid="208077209488494592" type="photo"
+                                            style="max-width:100%;"
+                                            data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot2-1594873471902791699445.png"
+                                            width="" height="" class="lightbox-content"></a></div>
+                                <div class="PhotoCMS_Caption"></div>
+                            </div>
+                            <p style="text-align: justify; margin-top: 15px">Nhiều game thủ cho rằng, video này cố tình dìm hàng các tựa
+                                game MOBA khác, trong đó có LMHT: Tốc Chiến để PR cho Liên Quân Mobile. Gần như rất
+                                nhiều "gạch đá" từ cộng đồng đã "dành tặng" cho Youtuber này như " câu sub rẻ tiền",
+                                    "seeder"</a>… Để thu hút tương tác cho clip của mình, Youtuber này còn tuyên bố như
+                                sau: </p>
+                            <p style="text-align: justify; margin-top: 15px">"Nhiều ông cứ thần thánh con Tốc
+                                    Chiến quá rồi đến lúc nó fail thật thì vỡ mồm. Ai chẳng biết nó có Riot
+                                đứng sau hậu thuẫn với có cộng đồng user khủng, nhưng mà độ khó của nó cao hơn hẳn thì
+                                khả năng cao là không thể đông người chơi như con Liên Quân rồi, thay vào đó chỉ dành
+                                cho một số ít user thích kiểu chơi này. Đấy là chưa kể nhiều người đã có thói quen chơi
+                                LMHT trên PC rồi, họ có thể chơi thử Tốc Chiến thời gian đầu khi ra mắt, chứ chắc gì đã
+                                chơi lâu dài khi mà PC mới là đam mê thực sự của họ? </p>
+                            <div class="VCSortableInPreviewMode noCaption" type="Photo" style="">
+                                <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot5-15948734719572093559439.png"
+                                        data-fancybox-group="img-lightbox" title="" target="_blank"
+                                        class="detail-img-lightbox"><img
+                                            src="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot5-15948734719572093559439.png"
+                                            id="img_208077210505519104" w="494" h="613"
+                                            alt="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 3."
+                                            title="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 3."
+                                            rel="lightbox" photoid="208077210505519104" type="photo"
+                                            style="max-width:100%;"
+                                            data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot5-15948734719572093559439.png"
+                                            width="" height="" class="lightbox-content"></a></div>
+                                <div class="PhotoCMS_Caption"></div>
+                            </div>
+                            <p style="text-align: justify;margin-top: 15px">Ở hướng ngược lại thì Liên Quân ngay từ đầu nó đã nhắm đến
+                                người dùng mobile rồi, nên hẳn nhiên lượng người chơi mobile đông hơn hẳn, có độ trung
+                                thành cao. Giả thiết đặt ra là khi Tốc Chiến ra mắt, user Liên Quân nhảy qua chơi được
+                                bao lâu? khi mà độ khó nó hơn hẳn, những người này sẽ chẳng chóng thì chày quay về Liên
+                                Quân mà thôi. Đừng quên nhiều ông lớn như Marvel còn thất
+                                    bại nữa là." </p>
+                            <div class="VCSortableInPreviewMode noCaption" type="Photo" style="">
+                                <div><a href="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot6-15948735063531177892628.png"
+                                        data-fancybox-group="img-lightbox" title="" target="_blank"
+                                        class="detail-img-lightbox"><img
+                                            src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/7/16/screenshot6-15948735063531177892628.png"
+                                            id="img_208077353952907264" w="1283" h="818"
+                                            alt="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 4."
+                                            title="Youtuber bị tố “câu sub rẻ tiền” khi nói LMHT: Tốc Chiến sẽ trở thành dead game trước “kẻ mà ai cũng biết là ai” - Ảnh 4."
+                                            rel="lightbox" photoid="208077353952907264" type="photo"
+                                            style="max-width:100%;"
+                                            data-original="https://gamek.mediacdn.vn/133514250583805952/2020/7/16/screenshot6-15948735063531177892628.png"
+                                            width="" height="" class="lightbox-content"></a></div>
+                                <div class="PhotoCMS_Caption"></div>
+                            </div>
+                            <p style="text-align: justify; margin-top: 15px">Với cách sử dụng ngôn từ như thế này, không khó hiểu khi tại
+                                sao Youtuber này lại bị cộng đồng game thủ "ném đá tơi bời" như thế. Điều thú vị là, mặc
+                                dù đã cố tình giật tít "gây war" song clip này mới chỉ thu về vỏn vẹn 697 lượt xem sau
+                                hai ngày, điều này chứng tỏ là dù cố cố tình "seeder" như thế nào thì điều quan trọng
+                                nhất vẫn là clip đó phải có chất lượng, đó mới là cách thu hút được người xem một cách
+                                bền vững và lâu dài nhất. </p>
+                            
+                            <p style="text-align: justify;"><i>Nguồn: Group Game không hay, Xóa Group</i></p>
+
+
+                            <!-- ------------ -->
+
+                        </div>
+
+                        <div class="row mb-5 mt-5"></div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer bg-dark text-white justify-align-between">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="row">
+                            <div class=col-1>
+                                <a href="index.html">
+                                    <img class="img-fluid"
+                                        src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/s2048x2048/104998949_287740425911712_3514427364399199460_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_oc=AQk9gddRbQ2N-AtR9sJFV8KljZ1cfGAnEyO68GzLDVlMFikm9V0RFvH9MjCCUDCf07o&_nc_ht=scontent.fhan5-6.fna&oh=87afbf2801a66831f61ae141c5a77194&oe=5F1B4BCA"
+                                        width="75.42px" height="30.32px" alt="logo here!" class="float-left"></a>
+                            </div>
+                            <div class=col-8>
+                                <div class="row">
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="tin_ict.html">Tin ICT</a></h5>
+                                    </div>
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="#">Thiết bị</a></h5>
+
+                                        <li class="footer_li2"><a class="a2" href="thietbi_c.html">Máy tính</a></li>
+                                        <li class="footer_li2"><a class="a2" href="thietbi_p.html">Điện thoại</a></li>
+                                        </li>
+
+
+                                    </div>
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="#">Game</a></h5>
+                                        <li class="footer_li2"><a href="game_p.html">Game Máy tính</a></li>
+                                        <li class="footer_li2"><a href="game_m.html">Game Điện thoại</a></li>
+                                        <li class="footer_li2"><a href="game_c.html">Game Console</a></li>
+                                    </div>
+                                    <div class=col-3>
+                                        <h5 class="header-h5"><a href="khampha.html">Khám phá</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <ul class="nav">
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Facebook</a>
+                                    </li>
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Twitter</a>
+                                    </li>
+                                    <li class="nav-item footer_li2">
+                                        <a class="nav-link" href="#">Instagram</a>
+                                    </li>
+                                </ul>
+
+                                <p class="pp">Site design / logo © 2020 KTL_ITech Group; user contributions licensed
+                                    under cc by-sa.
+                                    rev
+                                    2020.6.26.37146</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </footer>
+    </div>
+
+    <script src="search_onClick.js"></script>
+</body>
+
+</html>
