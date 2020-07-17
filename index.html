@@ -75,9 +75,9 @@
               <a class="nav-link" style="color: white;" href="vid.html">Video<span class="sr-only">(current)</span></a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Tìm kiếm</button>
+          <form class="form-inline my-2 my-lg-0" action="search.html">
+            <input class="form-control mr-sm-2" type="text" id="finding-value" placeholder="Tìm kiếm" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="saveLS()" >Tìm kiếm</button>
           </form>
         </div>
       </nav>
@@ -559,6 +559,7 @@
     </footer>
   </div>
   <script src="data.js"></script>
+  <script src="search_onClick.js"></script>
 </body>
 
 
