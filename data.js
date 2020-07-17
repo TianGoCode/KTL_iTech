@@ -29,8 +29,6 @@ while (id) {
 }
 console.log(data)
 // localStorage.setItem("allData",JSON.stringify(data))
-//sau khi co duoc data cua trang hien tai dang xet, 
-//lay ra data tu localstorage, push them vao data do
 
 var bigData = JSON.parse(localStorage.getItem("allData"))
 console.log(bigData)
@@ -40,23 +38,18 @@ if (bigData == null) {
     localStorage.setItem("allData", JSON.stringify(data))
     console.log(bigData)
 } else {
-
-    //neu da co thi push vao nha
     for (var i = 0; i < data.length; i++) {
         bigData.push(data[i])
     }
-    for (var i = (bigData.length) - 1; i >= 0; i--) {
+    for (var i = (bigData.length) - 2; i >= 0; i--) {
         for (var j = 0; j<i; j++)
-            if (bigData[j].title == bigData[i].title)
-            bigData.splice(j,99999999)
+            if (bigData[i].title == bigData[j].title)
+            bigData.splice(i,data.length)
                 
     }
     console.log(bigData)
     localStorage.setItem("allData", JSON.stringify(bigData))
 }
-
-
-// //tra lai data to ve local
 
 
 //localStorage.setItem("dataTitle",JSON.stringify(data))
